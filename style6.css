@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#gameScreen {
+  height: 40vh;
+  width: 90vw;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  border: 2px solid rgba(121, 24, 80, 0.938);
+  border-radius: 20px;
+  background-color: violet;
+}
+
+#playerText {
+  padding-top: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  color: rgb(108, 0, 151);
+}
+
+#computerText {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  color: rgb(108, 0, 151);
+}
+
+#resultText {
+  margin-top: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  color: rgb(108, 0, 151);
+}
+
+#btnDiv {
+  margin-top: 20px;
+  display: flex;
+  gap: 8px;
+}
+
+#scissorsButton {
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#rockButton {
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#paperButton {
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}

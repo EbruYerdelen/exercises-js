@@ -9,7 +9,7 @@ resetBtn.addEventListener("click", resetTime);
 
 let hours = 0;
 let minutes = 0;
-let seconds = 0;
+let seconds = 2935;
 
 function callTime() {
   interval = setInterval(startTime, 1000);
